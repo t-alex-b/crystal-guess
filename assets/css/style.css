@@ -1,0 +1,63 @@
+p {
+	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Cherry Swash', cursive;
+	font-size: 20px;
+}
+
+h3 {
+	font-family: 'Cherry Swash', cursive;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 100px;
+	font-family: 'Lobster', cursive;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+}
+
+body {
+	background-image: url("../images/halftone-yellow.png")
+}
+
+img {
+	height:60px;
+	width:60px;
+	border:2px solid black;
+	border-radius: 10px
+}
+
+img:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 10px black;
+}
+
+img:active {
+	box-shadow: 1px 1px 5px black;
+}
+
+h1, h2 {
+	/*color:lightblue;*/
+	text-shadow: 2px 2px lightblue;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.instructions {
+	display: none;
+/*	background-color: white;*/
+}
+
+.dropdown:hover {
+	cursor: pointer;
+/*	text-decoration: underline;*/
+}
+
+.stats p {
+	font-size: 25px;
+}
